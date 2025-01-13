@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benjamin\\desktop\\gestorinventarioproductos\\productos.cliente\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benjamin\\desktop\\gestorinventarioproductos\\productos.cliente\\views\\producto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benjamin\\desktop\\gestorinventarioproductos\\productos.cliente\\models\\productoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benjamin\\desktop\\gestorinventarioproductos\\productos.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benjamin\\desktop\\gestorinventarioproductos\\productos.server\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benjamin\\desktop\\gestorinventarioproductos\\productos.cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benjamin\\desktop\\gestorinventarioproductos\\productos.server\\migrations\\20250113172432_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benjamin\\desktop\\gestorinventarioproductos\\productos.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Cliente\\Views\\Producto\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Producto\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Cliente\\Views\\Producto\\Edit.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Producto\\Edit.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T21:14:30.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Cliente\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Cliente\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwGQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:55:18.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Server\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Server\\Program.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:19:38.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Server\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Server\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:51:23.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Cliente\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Program.cs",
+              "ToolTip": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Cliente\\Program.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:52:01.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Cliente\\Models\\ProductoViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Models\\ProductoViewModel.cs",
+              "ToolTip": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Cliente\\Models\\ProductoViewModel.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Models\\ProductoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:53:44.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250113172432_Productos.cs",
+              "DocumentMoniker": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250113172432_Productos.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Migrations\\20250113172432_Productos.cs",
+              "ToolTip": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250113172432_Productos.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Migrations\\20250113172432_Productos.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:24:33.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos.Server\\appsettings.json",
+              "RelativeToolTip": "..\\Productos.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T17:14:36.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

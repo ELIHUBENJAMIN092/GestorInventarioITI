@@ -83,7 +83,7 @@ namespace Productos.Cliente.Controllers
                 var json = JsonConvert.SerializeObject(producto);
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-                var response = await _httpClient.PutAsync($"/api/Productos/editar?id={id}", content);
+                var response = await _httpClient.PutAsync($"/api/Productos/editarProducto?id={id}", content);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -98,5 +98,36 @@ namespace Productos.Cliente.Controllers
             return View(producto);
         }
 
+        public async Task<IActionResult> Details(int id)
+        {
+            var response = await _httpClient.GetAsync($"api/Productos/verProducto?id={id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                var producto = JsonConvert.DeserializeObject<ProductoViewModel>(content);
+
+                return View(producto);
+            }
+            else
+            {
+                return RedirectToAction("Details");
+            }
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var response = await _httpClient.DeleteAsync($"api/Productos/eliminarProducto?id={id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                TempData["Error"] = "Error al eliminar producto";
+                return RedirectToAction("Index");
+            }
+        }
     }
 }

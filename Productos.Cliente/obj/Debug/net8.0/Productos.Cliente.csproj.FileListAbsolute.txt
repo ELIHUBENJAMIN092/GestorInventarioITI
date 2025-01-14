@@ -229,3 +229,4 @@ C:\Users\BENJAMIN\Desktop\GestorInventarioProductos\Productos.Cliente\bin\Debug\
 C:\Users\BENJAMIN\Desktop\GestorInventarioProductos\Productos.Cliente\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\BENJAMIN\Desktop\GestorInventarioProductos\Productos.Cliente\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\BENJAMIN\Desktop\GestorInventarioProductos\Productos.Cliente\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\BENJAMIN\Desktop\GestorInventarioProductos\Productos.Cliente\obj\Debug\net8.0\Productos.Cliente.sourcelink.json

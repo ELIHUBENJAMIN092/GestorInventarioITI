@@ -6,6 +6,16 @@ namespace Productos.Cliente
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: "AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()  // Permite cualquier origen (útil para desarrollo)
+                          .AllowAnyMethod()  // Permite cualquier método HTTP (GET, POST, PUT, DELETE, etc.)
+                          .AllowAnyHeader(); // Permite cualquier encabezado
+                });
+            });
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
@@ -28,6 +38,7 @@ namespace Productos.Cliente
 
             app.UseAuthorization();
 
+            // Cambiar Dashboard a Producto o Rol, según corresponda
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Producto}/{action=Index}/{id?}");

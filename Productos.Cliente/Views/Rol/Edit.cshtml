@@ -1,0 +1,32 @@
+﻿
+@model Productos.Cliente.Models.RolViewModel
+
+<div class="card text-primary">
+    <div class="card-header text-center">
+        <h5>Editar Rol</h5>
+    </div>
+    <div class="card-body text-center">
+        <div class="col-md-12">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="Id" type="hidden" />
+                <div class="form-group">
+                    <label for="Nombre">Nombre</label>
+                    <input asp-for="Nombre" class="form-control" placeholder="Nombre del Rol" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Descripcion">Descripción</label>
+                    <input asp-for="Descripcion" class="form-control" placeholder="Descripción del Rol" />
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                </div>
+                <div class="card-footer text-center">
+                    <div class="form-group">
+                        <input type="submit" value="Guardar Cambios" class="btn btn-outline-primary btn-sm" />
+                        <a asp-action="Index" class="btn btn-outline-success btn-sm">Volver a la Lista</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,7 +1,6 @@
 ﻿using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-
 using System.Net.Http;
 using Productos.Cliente.Models;
 
@@ -13,13 +12,24 @@ namespace Productos.Cliente.Controllers
 
         public ProductoController(IHttpClientFactory httpFactory)
         {
+            var handler = new HttpClientHandler();
+            // Ignorar los errores de certificado (solo para pruebas, no recomendado para producción)
+            handler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true;
+
+            // Crear el HttpClient con el handler configurado
             _httpClient = httpFactory.CreateClient();
             _httpClient.BaseAddress = new Uri("https://localhost:7207/api");
+
+            // Usar el handler para configurar el cliente HTTP
+            _httpClient = new HttpClient(handler)
+            {
+                BaseAddress = new Uri("https://localhost:7207/api")
+            };
         }
 
         public async Task<IActionResult> Index()
         {
-            var response = await _httpClient.GetAsync("api/Productos/lista"); //listaProducto
+            var response = await _httpClient.GetAsync("api/Productos/lista");
 
             if (response.IsSuccessStatusCode)
             {
@@ -28,10 +38,10 @@ namespace Productos.Cliente.Controllers
                 return View("Index", productos);
             }
 
-            return View(new List<ProductoViewModel>());//
+            return View(new List<ProductoViewModel>());
         }
 
-        public IActionResult Create() //
+        public IActionResult Create()
         {
             return View();
         }
@@ -66,7 +76,6 @@ namespace Productos.Cliente.Controllers
             {
                 var content = await response.Content.ReadAsStringAsync();
                 var producto = JsonConvert.DeserializeObject<ProductoViewModel>(content);
-
                 return View(producto);
             }
             else
@@ -106,7 +115,6 @@ namespace Productos.Cliente.Controllers
             {
                 var content = await response.Content.ReadAsStringAsync();
                 var producto = JsonConvert.DeserializeObject<ProductoViewModel>(content);
-
                 return View(producto);
             }
             else

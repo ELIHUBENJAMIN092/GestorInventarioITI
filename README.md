@@ -1,8 +1,8 @@
-Gestor de Inventario ITI.
+**Gestor de Inventario ITI.**
 
 Este proyecto es una API construida con ASP.NET Core para gestionar un inventario. Está conectada a una base de datos SQL Server y expone endpoints para realizar operaciones CRUD sobre las entidades User, Role, Product, y Category.
 
-Requisitos
+**Requisitos**
 
 Visual Studio 2022 o superior
 .NET SDK 8.0 o superior
@@ -26,7 +26,7 @@ Consumo de la API La API puede ser consumida mediante un cliente web. Para facil
 
 El cliente web puede hacer solicitudes GET a los endpoints de la API para obtener datos sobre usuarios, productos, roles, etc. Los datos obtenidos desde la API pueden ser presentados dinámicamente en la página web, facilitando la interacción con el inventario.
 
-Recursos:
+**Recursos:**
 
 Documentación oficial de ASP.NET Core
 Entity Framework Core

@@ -11,6 +11,15 @@ namespace Productos.Server
 
             // Add services to the container.
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: "AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()  // Permite cualquier origen (útil para desarrollo)
+                          .AllowAnyMethod()  // Permite cualquier método HTTP (GET, POST, PUT, DELETE, etc.)
+                          .AllowAnyHeader(); // Permite cualquier encabezado
+                });
+            });
             builder.Services.AddControllers();
             builder.Services.AddDbContext<ProductosContext>(o =>
             {

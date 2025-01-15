@@ -1,0 +1,64 @@
+﻿
+@model Productos.Cliente.Models.DashboardViewModel
+
+<div class="container">
+    <h2 class="text-primary text-center">Dashboard</h2>
+
+    <div class="row">
+        <!-- Lista de Roles -->
+        <div class="col-md-6">
+            <h3 class="text-center">Roles</h3>
+            <table class="table table-hover table-responsive table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var rol in Model.Roles)
+                    {
+                        <tr>
+                            <td>@rol.Nombre</td>
+                            <td>@rol.Descripcion</td>
+                            <td>
+                                <a asp-action="Edit" asp-controller="Rol" asp-route-id="@rol.Id" class="btn btn-warning btn-sm">Editar</a>
+                                <a asp-action="Delete" asp-controller="Rol" asp-route-id="@rol.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Lista de Productos -->
+        <div class="col-md-6">
+            <h3 class="text-center">Productos</h3>
+            <table class="table table-hover table-responsive table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var producto in Model.Productos)
+                    {
+                        <tr>
+                            <td>@producto.Nombre</td>
+                            <td>@producto.Descripcion</td>
+                            <td>@producto.Precio</td>
+                            <td>
+                                <a asp-action="Edit" asp-controller="Producto" asp-route-id="@producto.Id" class="btn btn-warning btn-sm">Editar</a>
+                                <a asp-action="Delete" asp-controller="Producto" asp-route-id="@producto.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

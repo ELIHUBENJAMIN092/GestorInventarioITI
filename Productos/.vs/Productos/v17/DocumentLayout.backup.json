@@ -1,12 +1,589 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\BENJAMIN\\Desktop\\GestorInventarioProductos\\Productos\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\models\\rolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\models\\productoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\rol\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\rol\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\rol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\views\\rol\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\productos.cliente.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\migrations\\20250115003114_addroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\models\\productoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\productos.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\productos.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\migrations\\20250114222604_addupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\migrations\\20250114220734_addlistaactualizada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\migrations\\20250114215747_addlistaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DDE1DB1-9406-472E-8A50-6219484F6C1E}|..\\Productos.Cliente\\Productos.Cliente.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.cliente\\productos.cliente.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF3A1AB2-B9E5-44C9-BDA7-473A27ECD2BF}|..\\Productos.Server\\Productos.Server.csproj|c:\\users\\benja\\onedrive\\escritorio\\gestorinventarioproductos\\productos.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T02:21:40.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T02:21:27.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T02:20:56.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T02:20:53.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T02:20:46.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T02:20:42.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T01:46:26.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T01:31:27.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T01:30:27.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T01:29:33.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Rol\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Rol\\Details.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Rol\\Details.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Rol\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T01:20:22.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Rol\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Rol\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Rol\\Edit.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Rol\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T01:14:25.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Rol\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Rol\\Create.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Rol\\Create.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Rol\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T01:05:54.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Rol\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Views\\Rol\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Views\\Rol\\Index.cshtml",
+              "RelativeToolTip": "..\\Productos.Cliente\\Views\\Rol\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T00:50:08.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Controllers\\RolController.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswG0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:42:04.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RolViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Models\\RolViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Models\\RolViewModel.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Models\\RolViewModel.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Models\\RolViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:36:20.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250115003114_AddRoll.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250115003114_AddRoll.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Migrations\\20250115003114_AddRoll.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250115003114_AddRoll.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Migrations\\20250115003114_AddRoll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:31:15.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:22:42.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Models\\Rol.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:20:23.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Models\\ProductoViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Models\\ProductoViewModel.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Models\\ProductoViewModel.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Models\\ProductoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:48:53.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductosContext.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Models\\ProductosContext.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Models\\ProductosContext.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Models\\ProductosContext.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Models\\ProductosContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:48:33.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Models\\Producto.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:48:28.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\Productos.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T23:47:49.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Productos.Server",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Productos.Server.csproj",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Productos.Server.csproj",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Productos.Server.csproj",
+              "RelativeToolTip": "..\\Productos.Server\\Productos.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-14T23:47:37.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:46:47.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Program.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:31:38.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Program.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Program.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:31:24.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250114222604_AddUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250114222604_AddUpdate.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Migrations\\20250114222604_AddUpdate.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250114222604_AddUpdate.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Migrations\\20250114222604_AddUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:26:05.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Productos.Cliente.csproj",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Productos.Cliente.csproj",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Productos.Cliente.csproj",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Productos.Cliente.csproj",
+              "RelativeToolTip": "..\\Productos.Cliente\\Productos.Cliente.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-14T22:13:26.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250114220734_AddListaActualizada.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250114220734_AddListaActualizada.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Migrations\\20250114220734_AddListaActualizada.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250114220734_AddListaActualizada.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Migrations\\20250114220734_AddListaActualizada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:07:35.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250114215747_AddListaProducto.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250114215747_AddListaProducto.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Migrations\\20250114215747_AddListaProducto.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Migrations\\20250114215747_AddListaProducto.cs",
+              "RelativeToolTip": "..\\Productos.Server\\Migrations\\20250114215747_AddListaProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:57:48.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Productos.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Productos.Server.csproj",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\Productos.Server.csproj",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\Productos.Server.csproj",
+              "RelativeToolTip": "..\\Productos.Server\\Productos.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-14T20:51:38.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Productos.Cliente",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Productos.Cliente.csproj",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Productos.Cliente.csproj",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Productos.Cliente.csproj",
+              "RelativeToolTip": "..\\Productos.Cliente\\Productos.Cliente.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-14T20:46:44.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\Productos.Cliente\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T20:46:26.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "..\\Productos.Cliente\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Cliente\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "..\\Productos.Cliente\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T20:35:22.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Productos.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\BENJA\\OneDrive\\Escritorio\\GestorInventarioProductos\\Productos.Server\\appsettings.json",
+              "RelativeToolTip": "..\\Productos.Server\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T20:26:12.835Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
